@@ -1,5 +1,20 @@
 import java.util.*;
 
+/**
+ * The dungeon game Ive been working on.
+ * <pre>
+ * FIXME: The shopkeeper dynamic breaks when I try to leave that loop and re-enter the fighting loop.
+ * I was recommended to consider starting a whole new array there and making it its own 
+ * public class static void thing.
+ * </pre> 
+ * TODO: I need to add the % chance of getting a 'brew' (potion) when you kill an enemy
+ * TODO: When shopkeeping I need to subtract the player coins better...
+ * <pre>
+ * TODO: When getting experience, I would loove to have it have a level system (which I can do) 
+ * but what I may need help with is having your level ups increase your stats every time. 
+ * </pre>
+ * @author EJC
+ */
 public class GameSet {
 	public static void main(String[]args) {
 		
